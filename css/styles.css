@@ -7,7 +7,27 @@
 /* #E5E5E5 основний колір фону */
 /* #F5F4FA вторинний колір фону сторінки */
 /* #2F303A колір героя и підвалу фону */
-.body {
+
+body {
   color: #757575;
   background-color: #e5e5e5;
+}
+/* оформлення логотипа */
+.logo {
+  color: #212121;
+}
+/* прибрати маркера списків сторінки */
+.list {
+  list-style: none;
+}
+/* розмітка HEADER */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.section {
+  color: #212121;
 }
