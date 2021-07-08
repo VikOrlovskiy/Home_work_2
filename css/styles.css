@@ -12,15 +12,20 @@ body {
   color: #757575;
   background-color: #e5e5e5;
 }
-/* оформлення логотипа */
-.logo {
-  color: #212121;
-}
+
 /* прибрати маркера списків сторінки */
 .list {
   list-style: none;
 }
 /* розмітка HEADER */
+/* оформлення логотипа */
+.logo {
+  color: #212121;
+}
+.logo .logo-blue {
+  color: #2196f3;
+}
+/* оформлення навігації */
 .site-nav .link {
   color: #212121;
 }
@@ -28,6 +33,34 @@ body {
 .site-nav .link:focus {
   color: #2196f3;
 }
-.section {
+.site-info .site-info-header {
+  color: #757575;
+}
+.site-info :hover,
+.site-info :focus {
+  color: #2196f3;
+}
+/* оформлення main */
+/* оформлення героя */
+.heroes-title {
+  color: #ffffff;
+}
+.heroes .heroes-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* оформлення кольру заголовків */
+.section-title {
   color: #212121;
+}
+/* оформлення футер */
+.below-logo,
+.location {
+  color: #ffffff;
+}
+.below-logo .logo-blue {
+  color: #2196f3;
+}
+.below-link .link {
+  color: rgba(255, 255, 255, 0.6);
 }
