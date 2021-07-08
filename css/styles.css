@@ -7,10 +7,17 @@
 /* #E5E5E5 основний колір фону */
 /* #F5F4FA вторинний колір фону сторінки */
 /* #2F303A колір героя и підвалу фону */
+:root {
+  --primary-text-color: #757575;
+  --primary-bgc: #e5e5e5;
+  --head-color: #212121;
+  --acent-color: #2196f3;
+  --title-wite: #ffffff;
+}
 
 body {
-  color: #757575;
-  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bgc);
 }
 
 /* прибрати маркера списків сторінки */
@@ -20,46 +27,46 @@ body {
 /* розмітка HEADER */
 /* оформлення логотипа */
 .logo {
-  color: #212121;
+  color: var(--head-color);
 }
 .logo .logo-blue {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 /* оформлення навігації */
 .site-nav .link {
-  color: #212121;
+  color: var(--head-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 .site-info .site-info-header {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .site-info :hover,
 .site-info :focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 /* оформлення main */
 /* оформлення героя */
 .heroes-title {
-  color: #ffffff;
+  color: var(--title-wite);
 }
 .heroes .heroes-button {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--title-wite);
+  background-color: var(--acent-color);
 }
 /* оформлення кольру заголовків */
 .section-title {
-  color: #212121;
+  color: var(--head-color);
 }
 /* оформлення футер */
 .below-logo,
 .location {
-  color: #ffffff;
+  color: var(--title-wite);
 }
 .below-logo .logo-blue {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 .below-link .link {
   color: rgba(255, 255, 255, 0.6);
@@ -67,10 +74,10 @@ body {
 /*сторінка 2 портфоліо */
 .section-title .button {
   background-color: #f5f4fa;
-  color: #212121;
+  color: var(--head-color);
 }
-.section-title .button :hover,
-.section-title .button :focus {
-  color: #ffffff;
-  background-color: #2196f3;
+.section-button .button:hover,
+.section-button .button:focus {
+  color: var(--title-wite);
+  background-color: var(--acent-color);
 }
