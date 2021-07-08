@@ -64,3 +64,13 @@ body {
 .below-link .link {
   color: rgba(255, 255, 255, 0.6);
 }
+/*сторінка 2 портфоліо */
+.section-title .button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.section-title .button :hover,
+.section-title .button :focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
