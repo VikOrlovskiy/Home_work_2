@@ -7,6 +7,9 @@
 /* #E5E5E5 основний колір фону */
 /* #F5F4FA вторинний колір фону сторінки */
 /* #2F303A колір героя и підвалу фону */
+
+/* Roboto 400/500/700/900 основний шоифт */
+/* Raleway  700 додатковий шрифт*/
 :root {
   --primary-text-color: #757575;
   --primary-bgc: #e5e5e5;
@@ -18,6 +21,7 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bgc);
+  font-family: 'Raleway', sans-serif;
 }
 
 /* прибрати маркера списків сторінки */
