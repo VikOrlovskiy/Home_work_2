@@ -17,6 +17,7 @@
   --title-color: #212121;
   --acent-color: #2196f3;
   --title-wite: #ffffff;
+  --button-bgc:#F5F4FA;
 }
 
 body {
@@ -89,12 +90,44 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   display: flex;
-align-items: center;
-text-align: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+   font-family: 'Roboto', sans-serif;
 }
-/* оформлення кольру заголовків */
+.heroes .heroes-button:focus ,
+.heroes .heroes-button:hover{
+  color:var(--acent-color);;
+  background-color:var(--title-wite); 
+}
+/* оформлення основи */
 .section-title {
   color: var(--title-color);
+}
+.list .section-title{
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+.list .text {
+font-size: 14px;
+line-height: 1.7;
+}
+.subtitle{
+  line-height: 1.16;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.team .headline{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team .text{
+  font-size: 16px;
+  line-height: 1.18;
 }
 /* оформлення футер */
 .below {
@@ -128,12 +161,14 @@ font-style: normal;
   color: var(--acent-color);  
 }
 /*сторінка 2 портфоліо */
-.section-title .button {
-  background-color: #f5f4fa;
+ .list .filter-button {
+  background-color: var(--button-bgc)
   color: var(--title-color);
+  cursor: pointer;
+   font-family: 'Roboto', sans-serif;
 }
-.section-button .button:hover,
-.section-button .button:focus {
+.list .filter-button:hover,
+.list .filter-button:focus {
   color: var(--title-wite);
   background-color: var(--acent-color);
 }
