@@ -17,13 +17,13 @@
   --title-color: #212121;
   --acent-color: #2196f3;
   --title-wite: #ffffff;
-  --button-bgc:#F5F4FA;
+  --button-bgc: #f5f4fa;
 }
 
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bgc);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
 }
@@ -36,7 +36,7 @@ body {
 .logo {
   /* оформлення тексту */
   color: var(--title-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.15;
@@ -70,14 +70,14 @@ body {
 }
 /* оформлення main */
 /* оформлення героя */
-.heroes{
-  background-color: #2F303A;
+.heroes {
+  background-color: #2f303a;
 }
 .heroes-title {
   color: var(--title-wite);
   font-weight: 900;
   font-size: 44px;
-  Line height:1.36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -93,45 +93,45 @@ body {
   align-items: center;
   text-align: center;
   cursor: pointer;
-   font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.heroes .heroes-button:focus ,
-.heroes .heroes-button:hover{
-  color:var(--acent-color);;
-  background-color:var(--title-wite); 
+.heroes .heroes-button:focus,
+.heroes .heroes-button:hover {
+  color: var(--acent-color);
+  background-color: var(--title-wite);
 }
 /* оформлення основи */
 .section-title {
   color: var(--title-color);
 }
-.list .section-title{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-text-transform: uppercase;
+.list .section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .list .text {
-font-size: 14px;
-line-height: 1.7;
+  font-size: 14px;
+  line-height: 1.7;
 }
-.subtitle{
+.subtitle {
   line-height: 1.16;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
 }
-.team .headline{
+.team .headline {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
-.team .text{
+.team .text {
   font-size: 16px;
   line-height: 1.18;
 }
 /* оформлення футер */
 .below {
-   background-color: #2F303A;
+  background-color: #2f303a;
 }
 .below-logo,
 .location {
@@ -140,37 +140,37 @@ line-height: 1.7;
 .below-logo .logo-blue {
   color: var(--acent-color);
 }
-.below-logo{
-font-family: 'Raleway', sans-serif;
+.below-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
 .location {
-line-height:1.7;
-font-style: normal;
+  line-height: 1.7;
+  font-style: normal;
 }
 .below-link .link {
   color: rgba(255, 255, 255, 0.6);
-   text-decoration: none;
-   line-height:1.7;
+  text-decoration: none;
+  line-height: 1.7;
 }
-.below-link :hover ,
-.below-link :focus{
-  color: var(--acent-color);  
+.below-link :hover,
+.below-link :focus {
+  color: var(--acent-color);
 }
 /*сторінка 2 портфоліо */
 /* фильтр */
 .filter .filter-button {
   color: var(--title-color);
-  background-color:var(--button-bgc) ;
+  background-color: var(--button-bgc);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   cursor: pointer;
-   font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .filter .filter-button:hover,
 .filter .filter-button:focus {
@@ -178,11 +178,11 @@ font-style: normal;
   background-color: var(--acent-color);
 }
 /* оформлення  */
-.portfolio  .link{
-   text-decoration: none;
-    color: var(--primary-text-color);
+.portfolio .link {
+  text-decoration: none;
+  color: var(--primary-text-color);
 }
-.link .section-title{
+.link .section-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
