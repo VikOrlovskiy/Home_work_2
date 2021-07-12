@@ -23,7 +23,7 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bgc);
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
 }
